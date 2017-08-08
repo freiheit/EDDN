@@ -37,7 +37,7 @@ def main():
                 __json      = simplejson.loads(__message)
                 
                 
-                print (__json)
+                print (__message)
                 sys.stdout.flush()
                 
         except zmq.ZMQError as e:
